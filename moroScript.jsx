@@ -939,9 +939,9 @@
         
               {/* CloudFront audio player */}
               <p>
-                test audio now
+                test audio new link pls work
               </p>
-              <audio id="player" controls autoPlay src="https://d2pkmi7mmss3bh.cloudfront.net/df0.wav"></audio>
+              <audio id="player" controls autoPlay src="https://dbgnmaqy5wxb6.cloudfront.net/df0.wav"></audio>
 
             </div>
           );
