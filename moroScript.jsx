@@ -661,12 +661,20 @@
           if (this.props.only_utterance) {
             return <div style={{marginBottom: "10px"}}>
               {sentence.utterance}
+              <audio controls>
+                <source src="https://dbgnmaqy5wxb6.cloudfront.net/df0.wav" type="audio/wav" />
+                Your browser does not support the audio element.
+              </audio>
             </div>;
           }
 
           if (this.props.only_translation) {
             return <div style={{marginBottom: "10px"}}>
               {sentence.translation}
+              <audio controls>
+                <source src="https://dbgnmaqy5wxb6.cloudfront.net/df0.wav" type="audio/wav" />
+                Your browser does not support the audio element.
+              </audio>
             </div>;
           }
           
@@ -684,11 +692,15 @@
             gloss = <span>{glosses}<br/></span>;
           }
 
-          // render utterance and translation
+          // render utterance and translation and audio
           return <div style={{marginBottom: "10px"}}>
             <b>{sentence.utterance}</b><br/>
             {gloss}
             {sentence.translation}
+            <audio controls>
+                <source src="https://dbgnmaqy5wxb6.cloudfront.net/df0.wav" type="audio/wav" />
+                Your browser does not support the audio element.
+              </audio>
           </div>
         }
       });
