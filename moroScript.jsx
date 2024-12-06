@@ -679,7 +679,7 @@
             return (
               <div style={{marginBottom: "10px"}}>
                 {sentence.translation}
-                <p>test to see if audio is being inserted</p>
+                <p>test to see if audio is being inserted PLASESES</p>
                 <audio id="player" controls src="https://dbgnmaqy5wxb6.cloudfront.net/df0.wav"></audio>
               </div>
             )
@@ -705,7 +705,7 @@
             {gloss}
             {sentence.translation}
             <p>
-              test to see if audio is being inserted
+              test to see if audio is being inserted weewoooweowoe
             </p>
             <audio id="player" controls src="https://dbgnmaqy5wxb6.cloudfront.net/df0.wav"></audio>
           </div>
