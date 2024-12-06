@@ -941,7 +941,7 @@
               <p>
                 test audio with karuk working audio
               </p>
-              <audio id="player" controls autoPlay src="https://d3uxfe7dw0hhy7.cloudfront.net/karuk/audio-sentences/LA-01/ta1-1.mp3"></audio>
+              <audio id="player" controls autoPlay src="https://dbgnmaqy5wxb6.cloudfront.net/df0.wav"></audio>
 
             </div>
           );
