@@ -954,14 +954,6 @@
                 UC Berkeley Class of 2016, Maytas is a double major in computer
                 science and economics.
               </p>
-
-        
-              {/* CloudFront audio player */}
-              <p>
-                test audio with karuk working audio
-              </p>
-              <audio id="player" controls src="https://dbgnmaqy5wxb6.cloudfront.net/df0.wav"></audio>
-
             </div>
           );
         },
