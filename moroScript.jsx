@@ -661,20 +661,20 @@
           if (this.props.only_utterance) {
             return <div style={{marginBottom: "10px"}}>
               {sentence.utterance}
-              <audio controls>
-                <source src="https://dbgnmaqy5wxb6.cloudfront.net/df0.wav" type="audio/wav" />
-                Your browser does not support the audio element.
-              </audio>
+              <p>
+                test to see if audio is being inserted
+              </p>
+              <audio id="player" controls autoPlay src="https://dbgnmaqy5wxb6.cloudfront.net/df0.wav"></audio>
             </div>;
           }
 
           if (this.props.only_translation) {
             return <div style={{marginBottom: "10px"}}>
               {sentence.translation}
-              <audio controls>
-                <source src="https://dbgnmaqy5wxb6.cloudfront.net/df0.wav" type="audio/wav" />
-                Your browser does not support the audio element.
-              </audio>
+              <p>
+                test to see if audio is being inserted
+              </p>
+              <audio id="player" controls autoPlay src="https://dbgnmaqy5wxb6.cloudfront.net/df0.wav"></audio>
             </div>;
           }
           
@@ -697,10 +697,10 @@
             <b>{sentence.utterance}</b><br/>
             {gloss}
             {sentence.translation}
-            <audio controls>
-                <source src="https://dbgnmaqy5wxb6.cloudfront.net/df0.wav" type="audio/wav" />
-                Your browser does not support the audio element.
-              </audio>
+            <p>
+              test to see if audio is being inserted
+            </p>
+            <audio id="player" controls autoPlay src="https://dbgnmaqy5wxb6.cloudfront.net/df0.wav"></audio>
           </div>
         }
       });
