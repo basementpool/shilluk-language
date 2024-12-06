@@ -661,10 +661,7 @@
           return (
             <div style={{marginBottom: "10px"}}>
               <p>Test to see if audio is being inserted</p>
-              <audio id="player" controls autoPlay>
-                <source src="https://dbgnmaqy5wxb6.cloudfront.net/df0.wav" type="audio/wav" />
-                Your browser does not support the audio element.
-              </audio>
+              <audio id="player" controls src="https://dbgnmaqy5wxb6.cloudfront.net/df0.wav"></audio>
             </div>
           )
 
