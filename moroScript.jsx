@@ -960,7 +960,7 @@
               <p>
                 test audio with karuk working audio
               </p>
-              <audio id="player" controls autoPlay src="https://dbgnmaqy5wxb6.cloudfront.net/df0.wav"></audio>
+              <audio id="player" controls src="https://dbgnmaqy5wxb6.cloudfront.net/df0.wav"></audio>
 
             </div>
           );
