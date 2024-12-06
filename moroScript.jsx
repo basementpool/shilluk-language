@@ -657,33 +657,33 @@
         render: function() {
           var gloss = '';
           var sentence = this.props.sentence;
-          console.log("Rendering Sentence", this.props.sentence); //Debugging
+          /*console.log("Rendering Sentence", this.props.sentence); //Debugging
           return (
             <div style={{marginBottom: "10px"}}>
               <p>Test to see if audio is being inserted</p>
               <audio id="player" controls src="https://dbgnmaqy5wxb6.cloudfront.net/df0.wav"></audio>
             </div>
-          )
+          ) */
 
-          /* if (this.props.only_utterance) {
-            return <div style={{marginBottom: "10px"}}>
-              {sentence.utterance}
-              <p>
-                test to see if audio is being inserted
-              </p>
-              <audio id="player" controls src="https://dbgnmaqy5wxb6.cloudfront.net/df0.wav"></audio>
-            </div>;
+          if (this.props.only_utterance) {
+            return (
+              <div style={{marginBottom: "10px"}}>
+                {sentence.utterance}
+                <p>test to see if audio is being inserted pleaseseeses</p>
+                <audio id="player" controls src="https://dbgnmaqy5wxb6.cloudfront.net/df0.wav"></audio>
+              </div>
+            )
           }
 
           if (this.props.only_translation) {
-            return <div style={{marginBottom: "10px"}}>
-              {sentence.translation}
-              <p>
-                test to see if audio is being inserted
-              </p>
-              <audio id="player" controls src="https://dbgnmaqy5wxb6.cloudfront.net/df0.wav"></audio>
-            </div>;
-          } */
+            return (
+              <div style={{marginBottom: "10px"}}>
+                {sentence.translation}
+                <p>test to see if audio is being inserted</p>
+                <audio id="player" controls src="https://dbgnmaqy5wxb6.cloudfront.net/df0.wav"></audio>
+              </div>
+            )
+          }
           
           // interlinear gloss alignment
           if (this.props.show_gloss) {
