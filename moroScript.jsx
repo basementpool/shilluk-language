@@ -671,7 +671,7 @@
               <p>
                 test to see if audio is being inserted
               </p>
-              <audio id="player" controls autoPlay src="https://dbgnmaqy5wxb6.cloudfront.net/df0.wav"></audio>
+              <audio id="player" controls src="https://dbgnmaqy5wxb6.cloudfront.net/df0.wav"></audio>
             </div>;
           }
 
@@ -681,7 +681,7 @@
               <p>
                 test to see if audio is being inserted
               </p>
-              <audio id="player" controls autoPlay src="https://dbgnmaqy5wxb6.cloudfront.net/df0.wav"></audio>
+              <audio id="player" controls src="https://dbgnmaqy5wxb6.cloudfront.net/df0.wav"></audio>
             </div>;
           } */
           
@@ -707,7 +707,7 @@
             <p>
               test to see if audio is being inserted
             </p>
-            <audio id="player" controls autoPlay src="https://dbgnmaqy5wxb6.cloudfront.net/df0.wav"></audio>
+            <audio id="player" controls src="https://dbgnmaqy5wxb6.cloudfront.net/df0.wav"></audio>
           </div>
         }
       });
