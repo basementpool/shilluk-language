@@ -657,8 +657,18 @@
         render: function() {
           var gloss = '';
           var sentence = this.props.sentence;
+          console.log("Rendering Sentence", this.props.sentence); //Debugging
+          return (
+            <div style={{marginBottom: "10px"}}>
+              <p>Test to see if audio is being inserted</p>
+              <audio id="player" controls autoPlay>
+                <source src="https://dbgnmaqy5wxb6.cloudfront.net/df0.wav" type="audio/wav" />
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+          )
 
-          if (this.props.only_utterance) {
+          /* if (this.props.only_utterance) {
             return <div style={{marginBottom: "10px"}}>
               {sentence.utterance}
               <p>
@@ -676,7 +686,7 @@
               </p>
               <audio id="player" controls autoPlay src="https://dbgnmaqy5wxb6.cloudfront.net/df0.wav"></audio>
             </div>;
-          }
+          } */
           
           // interlinear gloss alignment
           if (this.props.show_gloss) {
